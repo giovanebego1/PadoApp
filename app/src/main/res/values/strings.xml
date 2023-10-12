@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sign_in strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="n_o_tem_um_conta__cadastre_se_string">Não tem uma conta? Cadastre-se</string>
+	<string name="ou_string">Ou</string>
+	<string name="concluido_string">CONCLUIDO</string>
+	<string name="esqueceu_senha_string">Esqueceu senha</string>
+	<string name="email_string">Email</string>
+	<string name="senha_string">Senha</string>
+	<string name="insira_seu_e_mail_string">Insira seu e-mail</string>
+	<string name="insira_sua_senha_string">Insira sua senha</string>
+
+		<!-- create_new_account strings -->
+
+	<string name="crie_sua_conta_string">Crie sua conta</string>
+	<string name="celular_ek1_string">Celular</string>
+	<string name="insira_seu_celular_string">Insira seu celular</string>
+	<string name="nome_completo_ek1_string">Nome Completo</string>
+	<string name="insira_seu_nome_completo_string">Insira seu nome completo</string>
+	<string name="senha_ek1_string">Senha</string>
+
+	<!-- add_device strings -->
+
+	<string name="buscar_com_bluetooth_ou_wi_fi_string">Buscar com Bluetooth ou Wi-fi</string>
+	<string name="ler_qrcode_do_manual_string">Ler QrCode do manual </string>
+	<string name="para_iniciar__adicione_um_novo_dispositivo_string">Para iniciar, adicione um novo dispositivo</string>
+	<string name="facebook" />
+    <string name="pado_logo">Pado logo</string>
+    <string name="bluetooth_button">Bluetooth Button</string>
+    <string name="add_button">add button</string>
+	<string name="qrcode_button">qrcode button</string>
+	<string name="settings_button">Settings button</string>
+	<string name="head_rectangle">head rectangle</string>
+	<string name="wi_fi_button">wi_fi button</string>
+
+		<!-- unlock strings -->
+
+	<string name="nome_fechadura_string">Nome fechadura</string>
+	<string name="clique_no_cadeado_para_abrir_string">Clique no cadeado para abrir</string>
+    <string name="unlock_button">Unlock Button</string>
+
+	<!-- lock strings -->
+	<string name="clique_no_cadeado_para_fechar_string">Clique no cadeado para fechar</string>
+</resources>
