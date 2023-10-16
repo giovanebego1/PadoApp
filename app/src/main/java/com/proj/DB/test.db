@@ -1,0 +1,25 @@
+CREATE TABLE RESIDENT(
+    resident_id int PRIMARY KEY,
+    resident_email TEXT NOT NULL UNIQUE,
+    resident_phone TEXT NOT NULL UNIQUE  
+);
+
+CREATE TABLE GROUPS(
+    group_id int PRIMARY KEY,
+    name text NOT NULL
+);
+
+CREATE TABLE Resident_Groups(
+    resident_id int,
+    group_id int,
+    PRIMARY KEY (resident_id, group_id),
+    FOREIGN KEY (resident_id)
+        REFERENCES RESIDENT (resident_id)
+            ON DELETE CASCADE
+            ON UPDATE NO ACTION,
+    FOREIGN KEY (group_id)
+        REFERENCES GROUPS (group_id)
+            ON DELETE CASCADE
+            ON UPDATE NO ACTION
+);
+
