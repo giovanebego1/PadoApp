@@ -25,7 +25,6 @@ public class unlock_activity extends Activity {
 			public void onClick(View v) {
 				Post_test postTestTask = new Post_test();
 				postTestTask.execute();
-				Toast.makeText(unlock_activity.this, "´Post realizado com sucesso.", Toast.LENGTH_LONG).show();
 			}
 		});
 

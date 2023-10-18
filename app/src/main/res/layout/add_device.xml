@@ -68,6 +68,8 @@
 				android:layout_marginStart="25dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:focusable="true"
 				>
 
 				<View
@@ -81,7 +83,7 @@
 				<ImageView android:id="@+id/teste"
 					android:clickable="true"
 					android:focusable="true"
-					android:src="@drawable/vector_ek1"
+					android:src="@drawable/bluetooth"
 					android:layout_marginStart="52dp"
 					android:layout_marginTop="7dp"
 					android:layout_width="55dp"
@@ -102,7 +104,8 @@
 				android:layout_alignBaseline="@+id/bluetooth"
 				android:layout_marginStart="225dp"
 				android:layout_marginTop="412dp"
-
+				android:clickable="true"
+				android:focusable="true"
 				>
 
 				<View
@@ -126,10 +129,13 @@
 
 
 			<RelativeLayout android:id="@+id/qr_code"
-				android:layout_marginTop="630dp"
+				android:layout_marginTop="660dp"
 				android:layout_marginStart="20dp"
 				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
+				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:focusable="true"
+				>
 
 				<View   android:id="@+id/rectangle_48"
 					android:background="@drawable/rectangle_48_shape"
