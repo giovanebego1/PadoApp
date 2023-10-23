@@ -41,7 +41,7 @@ public class sign_in_activity extends Activity {
 		done_button.setOnClickListener(v -> {
 			boolean isLoggedId = dbHelper.checkUser(user_login.getText().toString(), pwd_login.getText().toString());
 			if (isLoggedId){
-				Intent intent = new Intent(sign_in_activity.this, unlock_activity.class);
+				Intent intent = new Intent(sign_in_activity.this, lock_activity.class);
 				startActivity(intent);
 			}else
 				Toast.makeText(sign_in_activity.this, "Erro ao fazer login", Toast.LENGTH_LONG).show();

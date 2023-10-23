@@ -2,32 +2,31 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content">
 
-	<ScrollView android:id="@+id/add_device" 
-		android:layout_width="wrap_content" 
+	<ScrollView
+        android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout
+            android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View
-				android:id="@+id/_bg__add_device"
-				android:layout_width="412dp"
+                android:layout_width="412dp"
 				android:layout_height="892dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:background="@drawable/_bg__add_device_shape" />
 
-			<ImageView android:id="@+id/image_2"
-				android:src="@drawable/image_2"
+			<ImageView
+                android:src="@drawable/image_2"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="830dp"
 				android:layout_width="220dp"
 				android:layout_height="40dp"
 				android:contentDescription="@string/pado_logo" />
 
-			<TextView android:id="@+id/buscar_com_bluetooth_ou_wi_fi"
-				android:textStyle="bold"
+			<TextView
+                android:textStyle="bold"
 				android:layout_gravity="center_horizontal|center"
 				android:textSize="22sp"
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
@@ -38,8 +37,8 @@
 				android:layout_centerHorizontal="true"
 				 />
 
-			<TextView android:id="@+id/ler_qrcode_do_manual"
-				android:textStyle="bold"
+			<TextView
+                android:textStyle="bold"
 				android:textSize="22sp"
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
 				android:layout_centerHorizontal="true"
@@ -49,17 +48,17 @@
 				android:text="@string/ler_qrcode_do_manual_string"
 				 />
 
-			<TextView android:id="@+id/para_iniciar__adicione_um_novo_dispositivo"
-				android:textStyle="bold"
-				android:gravity="center"
-				android:layout_centerHorizontal="true"
-				android:textSize="24sp"
-				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
-				android:layout_marginTop="220dp"
-				android:layout_width="340dp"
+			<TextView
+                android:layout_width="340dp"
 				android:layout_height="60dp"
+				android:layout_below="@+id/head_bar"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="96dp"
+				android:gravity="center"
 				android:text="@string/para_iniciar__adicione_um_novo_dispositivo_string"
-				 />
+				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
+				android:textSize="24sp"
+				android:textStyle="bold" />
 
 			<!-- Adicionar botoes wifi e blue dentro de uma LinerLayout para que fiquem com espaçamento iguais -->
 
@@ -73,15 +72,14 @@
 				>
 
 				<View
-					android:id="@+id/rectangle_47"
-					android:layout_width="160dp"
+                    android:layout_width="160dp"
 					android:layout_height="74dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:background="@drawable/rectangle_47_shape" />
 
-				<ImageView android:id="@+id/teste"
-					android:clickable="true"
+				<ImageView
+                    android:clickable="true"
 					android:focusable="true"
 					android:src="@drawable/bluetooth"
 					android:layout_marginStart="52dp"
@@ -109,14 +107,12 @@
 				>
 
 				<View
-					android:id="@+id/rectangle_47_ek1"
-					android:layout_width="160dp"
+                    android:layout_width="160dp"
 					android:layout_height="74dp"
 					android:background="@drawable/rectangle_47_shape" />
 
 				<ImageView
-					android:id="@+id/wi_fi"
-					android:layout_width="55dp"
+                    android:layout_width="55dp"
 					android:layout_height="55dp"
 					android:layout_centerHorizontal="true"
 					android:layout_centerVertical="true"
@@ -137,20 +133,20 @@
 				android:focusable="true"
 				>
 
-				<View   android:id="@+id/rectangle_48"
-					android:background="@drawable/rectangle_48_shape"
+				<View
+                    android:background="@drawable/rectangle_48_shape"
 					android:foregroundGravity="center"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="370dp"
 					android:layout_height="75dp"/>
 
-				<ImageView android:id="@+id/qr_code_ek1"
-					android:src="@drawable/qr_code_ek1"
+				<ImageView
+                    android:src="@drawable/qr_code_ek1"
 					android:contentDescription="@string/qrcode_button"
 					 android:layout_marginStart="156dp"
 					android:layout_marginTop="11dp"
-					android:layout_width="50.77dp"
+					android:layout_width="50dp"
 					android:layout_height="55dp"
 					android:layout_centerHorizontal="true"
 					android:layout_centerVertical="true" />
@@ -165,8 +161,8 @@
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/vector_1"
-					android:src="@drawable/vector_1"
+				<ImageView
+                    android:src="@drawable/vector_1"
 					android:contentDescription="@string/head_rectangle"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
@@ -174,15 +170,7 @@
 					android:layout_height="80dp"
 					android:layout_centerHorizontal="true"/>
 
-				<ImageView android:id="@+id/add"
-					android:src="@drawable/add"
-					android:contentDescription="@string/add_button"
-					 android:layout_marginStart="245dp"
-					android:layout_marginTop="10dp"
-					android:layout_width="60dp"
-					android:layout_height="60dp" />
-
-				<ImageView android:id="@+id/tune"
+				<ImageView android:id="@+id/settings"
 					android:src="@drawable/tune"
 					android:contentDescription="@string/settings_button"
 					 android:layout_marginStart="325dp"

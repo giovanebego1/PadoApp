@@ -2,6 +2,7 @@ package com.proj.padoapp;
 
 import static com.proj.padoapp.Valid.isValid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -47,7 +48,8 @@ public class create_new_account_activity extends AppCompatActivity {
 
 						if (registerStatus) {
 							Toast.makeText(create_new_account_activity.this, "Cadastro Concluído", Toast.LENGTH_LONG).show();
-
+							Intent intent = new Intent(create_new_account_activity.this, sign_in_activity.class);
+							startActivity(intent);
 						} else {
 							Toast.makeText(create_new_account_activity.this, "Não foi possível realizar o cadastro", Toast.LENGTH_LONG).show();
 						}

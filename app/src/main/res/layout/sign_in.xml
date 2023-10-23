@@ -5,18 +5,15 @@
 	android:layout_height="wrap_content">
 
 	<ScrollView
-		android:id="@+id/sign_in"
-		android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
 		android:layout_height="match_parent">
 
 		<RelativeLayout
-			android:id="@+id/content_container"
-			android:layout_width="wrap_content"
+            android:layout_width="wrap_content"
 			android:layout_height="wrap_content">
 
 			<View
-				android:id="@+id/__bg__sign_in"
-				android:layout_width="412dp"
+                android:layout_width="412dp"
 				android:layout_height="872dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
@@ -40,15 +37,13 @@
 				tools:ignore="TextSizeCheck" />
 
 			<RelativeLayout
-				android:id="@+id/oauth"
-				android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="660dp">
 
 				<View
-					android:id="@+id/rectangle_66"
-					android:layout_width="345dp"
+                    android:layout_width="345dp"
 					android:layout_height="75dp"
 					android:layout_centerHorizontal="true"
 					android:layout_marginStart="0dp"
@@ -58,15 +53,13 @@
 
 
 				<RelativeLayout
-					android:id="@+id/facebook_logo"
-					android:layout_width="wrap_content"
+                    android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="70dp"
 					android:layout_marginTop="7dp">
 
 					<View
-						android:id="@+id/ellipse_16"
-						android:layout_width="60dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -89,15 +82,13 @@
 
 
 				<RelativeLayout
-					android:id="@+id/apple_logo"
-					android:layout_width="wrap_content"
+                    android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="142.66dp"
 					android:layout_marginTop="7dp">
 
 					<View
-						android:id="@+id/ellipse_16_ek1"
-						android:layout_width="60dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -121,15 +112,13 @@
 
 
 				<RelativeLayout
-					android:id="@+id/google_logo"
-					android:layout_width="wrap_content"
+                    android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="215.31dp"
 					android:layout_marginTop="7dp">
 
 					<View
-						android:id="@+id/ellipse_17"
-						android:layout_width="58.12dp"
+                        android:layout_width="58.12dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -153,8 +142,7 @@
 			</RelativeLayout>
 
 			<TextView
-				android:id="@+id/ou"
-				android:layout_width="44dp"
+                android:layout_width="44dp"
 				android:layout_height="40dp"
 				android:layout_centerHorizontal="true"
 				android:layout_gravity="center_horizontal|center"
@@ -168,8 +156,7 @@
 
 
 			<RelativeLayout
-				android:id="@+id/done_rectangle"
-				android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="520dp"
@@ -186,8 +173,7 @@
 					android:src="@drawable/rectangle_6" />
 
 				<TextView
-					android:id="@+id/concluido"
-					android:layout_width="134dp"
+                    android:layout_width="134dp"
 					android:layout_height="37dp"
 					android:layout_centerInParent="true"
 					android:layout_gravity="center_horizontal|center"
@@ -216,15 +202,13 @@
 				tools:ignore="TextSizeCheck" />
 
 			<RelativeLayout
-				android:id="@+id/login"
-				android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="170dp">
 
 				<TextView
-					android:id="@+id/email"
-					android:layout_width="67dp"
+                    android:layout_width="67dp"
 					android:layout_height="37dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginStart="-0.72dp"
@@ -236,14 +220,12 @@
 					tools:ignore="TextSizeCheck" />
 
 				<FrameLayout
-					android:id="@+id/usuario"
-					android:layout_width="375dp"
+                    android:layout_width="375dp"
 					android:layout_height="60dp"
 					android:layout_marginTop="40dp">
 
 					<EditText
-						android:id="@+id/rectangle_6_ek1"
-						android:layout_width="match_parent"
+                        android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:alpha="0.15000000596046"
 						android:background="@drawable/rectangle_6_ek1_shape"
@@ -266,8 +248,7 @@
 				</FrameLayout>
 
 				<TextView
-					android:id="@+id/senha_text"
-					android:layout_width="73dp"
+                    android:layout_width="73dp"
 					android:layout_height="37dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="-1dp"
@@ -278,14 +259,12 @@
 					android:textSize="22sp" />
 
 				<FrameLayout
-					android:id="@+id/password"
-					android:layout_width="375dp"
+                    android:layout_width="375dp"
 					android:layout_height="60dp"
 					android:layout_marginTop="195dp">
 
 					<EditText
-						android:id="@+id/rectangle_7"
-						android:layout_width="match_parent"
+                        android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:alpha="0.15000000596046"
 						android:background="@drawable/rectangle_7_shape"
@@ -305,8 +284,7 @@
 						tools:ignore="RtlSymmetry,TextSizeCheck" />
 
 					<RelativeLayout
-						android:id="@+id/btn_show_hide_pwd"
-						android:layout_width="wrap_content"
+                        android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="325dp"
 						android:layout_marginTop="20dp"
@@ -331,8 +309,7 @@
 			</RelativeLayout>
 
 			<ImageView
-				android:id="@+id/image_1"
-				android:layout_width="385dp"
+                android:layout_width="385dp"
 				android:layout_height="70dp"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="30dp"

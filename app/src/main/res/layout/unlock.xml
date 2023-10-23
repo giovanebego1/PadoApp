@@ -1,16 +1,16 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 
-	<ScrollView android:id="@+id/unlock" 
-		android:layout_width="wrap_content" 
+	<ScrollView
+        android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout
+            android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__unlock"
-				android:background="@drawable/_bg__unlock_shape"
+			<View
+                android:background="@drawable/_bg__unlock_shape"
 				android:layout_width="412dp"
 				android:layout_height="892dp" />
 
@@ -22,24 +22,24 @@
 				android:layout_height="wrap_content"
 				>
 
-				<ImageView android:id="@+id/vector_1"
-					android:src="@drawable/vector_1"
+				<ImageView
+                    android:src="@drawable/vector_1"
 					android:contentDescription="vector_1"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="412dp"
 					android:layout_height="80dp" />
 
-				<ImageView android:id="@+id/add"
-					android:src="@drawable/add"
+				<ImageView
+                    android:src="@drawable/add"
 					android:contentDescription="add"
-					 android:layout_marginStart="250dp"
+					android:layout_marginStart="250dp"
 					android:layout_marginTop="15dp"
 					android:layout_width="50dp"
 					android:layout_height="50dp" />
 
-				<ImageView android:id="@+id/tune"
-					android:src="@drawable/tune"
+				<ImageView
+                    android:src="@drawable/tune"
 					android:contentDescription="tune"
 					 android:layout_marginStart="330dp"
 					android:layout_marginTop="15dp"
@@ -49,22 +49,22 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/logo"
-				android:layout_marginTop="830dp"
+			<RelativeLayout
+                android:layout_marginTop="830dp"
 				android:layout_centerHorizontal="true"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__logo_ek1"
-					android:background="@drawable/_bg__logo_ek1_shape"
+				<View
+                    android:background="@drawable/_bg__logo_ek1_shape"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="match_parent"
 					android:layout_height="match_parent" />
 
-				<ImageView android:id="@+id/image_3"
-					android:src="@drawable/image_3"
+				<ImageView
+                    android:src="@drawable/image_3"
 					android:contentDescription="image_3"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
@@ -74,37 +74,37 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/fotter"
-				android:layout_marginTop="700dp"
+			<RelativeLayout
+                android:layout_marginTop="700dp"
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__fotter_ek1"
-					android:background="@drawable/_bg__fotter_ek1_shape"
+				<View
+                    android:background="@drawable/_bg__fotter_ek1_shape"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="412dp"
 					android:layout_height="90dp" />
 
-				<View   android:id="@+id/rectangle_51"
-					android:background="@drawable/rectangle_51_shape"
+				<View
+                    android:background="@drawable/rectangle_51_shape"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="412dp"
 					android:layout_height="90dp" />
 
-				<ImageView android:id="@+id/vector"
-					android:src="@drawable/vector"
+				<ImageView
+                    android:src="@drawable/vector"
 					android:contentDescription="vector"
 					 android:layout_marginStart="64dp"
 					android:layout_marginTop="20dp"
 					android:layout_width="60dp"
 					android:layout_height="60dp" />
 
-				<ImageView android:id="@+id/combined_shape"
-					android:src="@drawable/combined_shape"
+				<ImageView
+                    android:src="@drawable/combined_shape"
 					android:contentDescription="combined_shape"
 					 android:layout_marginStart="294dp"
 					android:layout_marginTop="20dp"
@@ -114,8 +114,8 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/lock"
-				android:layout_marginTop="320dp"
+			<RelativeLayout
+                android:layout_marginTop="320dp"
 				android:layout_centerHorizontal="true"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -131,8 +131,8 @@
 
 			</RelativeLayout>
 
-			<TextView android:id="@+id/nome_fechadura"
-				android:layout_centerHorizontal="true"
+			<TextView
+                android:layout_centerHorizontal="true"
 				android:gravity="center"
 				android:textSize="36sp"
 				android:textColor="@color/time_color"
@@ -142,8 +142,8 @@
 				android:text="@string/nome_fechadura_string"
 				 />
 
-			<TextView android:id="@+id/clique_no_cadeado_para_abrir"
-				android:layout_centerHorizontal="true"
+			<TextView
+                android:layout_centerHorizontal="true"
 				android:gravity="center"
 				android:textSize="22sp"
 				android:textColor="@color/click_unlock"

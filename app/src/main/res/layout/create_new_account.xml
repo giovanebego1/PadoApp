@@ -1,24 +1,24 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 
-	<ScrollView android:id="@+id/create_new_account" 
-		android:layout_width="wrap_content" 
+	<ScrollView
+        android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout
+            android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__create_new_account"
-				android:background="@drawable/_bg__create_new_account_shape"
+			<View
+                android:background="@drawable/_bg__create_new_account_shape"
 				 android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:layout_width="412dp"
 				android:layout_height="872dp" />
 
 
-			<TextView android:id="@+id/crie_sua_conta"
-				android:layout_centerHorizontal="true"
+			<TextView
+                android:layout_centerHorizontal="true"
 				android:textStyle="bold"
 				android:textSize="26sp"
 				android:textColor="@color/crie_sua_conta_color"
@@ -28,8 +28,8 @@
 				android:text="@string/crie_sua_conta_string"
 				tools:ignore="VisualLintOverlap" />
 
-			<TextView android:id="@+id/ou"
-				android:textStyle="bold"
+			<TextView
+                android:textStyle="bold"
 				android:layout_gravity="center_horizontal|center"
 				android:gravity="center"
 				android:textSize="22sp"
@@ -43,26 +43,26 @@
 				 />
 
 
-			<LinearLayout android:id="@+id/cadastro"
-				android:layout_marginStart="16dp"
+			<LinearLayout
+                android:layout_marginStart="16dp"
 				android:orientation="vertical"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
 				android:layout_centerHorizontal="true">
 
-				<FrameLayout android:id="@+id/frame_cadastro"
-					android:layout_width="match_parent"
+				<FrameLayout
+                    android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					>
 
-					<RelativeLayout android:id="@+id/name_bar"
-						android:layout_width="match_parent"
+					<RelativeLayout
+                        android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:layout_marginTop="75dp"
 						android:layout_marginStart="0dp">
 
-						<TextView android:id="@+id/nome_completo_ek1"
-							android:textSize="24sp"
+						<TextView
+                            android:textSize="24sp"
 							android:textColor="@color/teal_900"
 							android:layout_marginLeft="5dp"
 							android:layout_marginTop="0dp"
@@ -71,8 +71,8 @@
 							android:text="@string/nome_completo_ek1_string"
 							/>
 
-						<View   android:id="@+id/rectangle_8"
-							android:background="@drawable/rectangle_8_shape"
+						<View
+                            android:background="@drawable/rectangle_8_shape"
 							android:alpha="0.15000000596046"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="50dp"
@@ -95,15 +95,15 @@
 							/>
 					</RelativeLayout>
 
-					<RelativeLayout android:id="@+id/e_mail"
-						android:layout_marginTop="200dp"
+					<RelativeLayout
+                        android:layout_marginTop="200dp"
 						android:layout_marginStart="1dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						>
 
-						<TextView android:id="@+id/email"
-							android:layout_gravity="center_horizontal|center"
+						<TextView
+                            android:layout_gravity="center_horizontal|center"
 							android:gravity="center"
 							android:textSize="24dp"
 							android:textColor="@color/teal_900"
@@ -114,8 +114,8 @@
 							android:text="@string/email_string"
 							/>
 
-						<View   android:id="@+id/rectangle_6"
-							android:background="@drawable/rectangle_6_shape"
+						<View
+                            android:background="@drawable/rectangle_6_shape"
 							android:alpha="0.15000000596046"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="50dp"
@@ -138,15 +138,15 @@
 
 					</RelativeLayout>
 
-					<RelativeLayout android:id="@+id/celular"
-						android:layout_marginTop="325dp"
+					<RelativeLayout
+                        android:layout_marginTop="325dp"
 						android:layout_marginStart="1dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						>
 
-						<TextView android:id="@+id/celular_ek1"
-							android:layout_gravity="center_horizontal|center"
+						<TextView
+                            android:layout_gravity="center_horizontal|center"
 							android:gravity="center"
 							android:textSize="24dp"
 							android:textColor="@color/teal_900"
@@ -157,8 +157,8 @@
 							android:text="@string/celular_ek1_string"
 							/>
 
-						<View   android:id="@+id/rectangle_7"
-							android:background="@drawable/rectangle_7_shape"
+						<View
+                            android:background="@drawable/rectangle_7_shape"
 							android:alpha="0.15000000596046"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="50dp"
@@ -181,15 +181,15 @@
 
 					</RelativeLayout>
 
-					<RelativeLayout android:id="@+id/senha"
-						android:layout_marginStart="1dp"
+					<RelativeLayout
+                        android:layout_marginStart="1dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginTop="450dp"
 						>
 
-						<TextView android:id="@+id/senha_ek1"
-							android:layout_gravity="center_horizontal|center"
+						<TextView
+                            android:layout_gravity="center_horizontal|center"
 							android:gravity="center"
 							android:textSize="24dp"
 							android:textColor="@color/teal_900"
@@ -200,8 +200,8 @@
 							android:text="@string/senha_ek1_string"
 							/>
 
-						<View   android:id="@+id/rectangle_7_ek1"
-							android:background="@drawable/rectangle_7_ek1_shape"
+						<View
+                            android:background="@drawable/rectangle_7_ek1_shape"
 							android:alpha="0.15000000596046"
 							android:layout_marginStart="0dp"
 							android:layout_marginTop="50dp"
@@ -209,15 +209,15 @@
 							android:layout_height="60dp"/>
 
 
-						<RelativeLayout android:id="@+id/outline___eye_closed"
-							android:layout_marginTop="65dp"
+						<RelativeLayout
+                            android:layout_marginTop="65dp"
 							android:layout_marginStart="320dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
 							>
 
-							<ImageView android:id="@+id/shape"
-								android:src="@drawable/shape"
+							<ImageView
+                                android:src="@drawable/shape"
 								android:contentDescription="shape"
 								android:layout_marginStart="5dp"
 								android:layout_marginTop="5dp"
@@ -246,15 +246,15 @@
 
 			</LinearLayout>
 
-			<RelativeLayout android:id="@+id/oauth"
-				android:layout_marginTop="730dp"
+			<RelativeLayout
+                android:layout_marginTop="730dp"
 				android:layout_marginStart="35dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_centerHorizontal="true">
 
-				<View   android:id="@+id/rectangle_66"
-					android:background="@drawable/rectangle_66_shape"
+				<View
+                    android:background="@drawable/rectangle_66_shape"
 					android:alpha="0"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
@@ -262,16 +262,15 @@
 					android:layout_height="75dp" />
 
 
-				<RelativeLayout android:id="@+id/facebook_logo"
-					android:layout_marginTop="7dp"
+				<RelativeLayout
+                    android:layout_marginTop="7dp"
 					android:layout_marginStart="70dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
 
 					<View
-						android:id="@+id/facebook"
-						android:layout_width="60dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -296,16 +295,15 @@
 				</RelativeLayout>
 
 
-				<RelativeLayout android:id="@+id/apple_logo"
-					android:layout_marginTop="7dp"
+				<RelativeLayout
+                    android:layout_marginTop="7dp"
 					android:layout_marginStart="142.66dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
 
 					<View
-						android:id="@+id/apple"
-						android:layout_width="60dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -329,16 +327,15 @@
 				</RelativeLayout>
 
 
-				<RelativeLayout android:id="@+id/google_logo"
-					android:layout_marginTop="7dp"
+				<RelativeLayout
+                    android:layout_marginTop="7dp"
 					android:layout_marginStart="215.31dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					>
 
 					<View
-						android:id="@+id/google"
-						android:layout_width="60dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -380,8 +377,8 @@
 					android:clickable="true"
 					android:focusable="true"/>
 
-				<TextView android:id="@+id/concluido"
-					android:textStyle="bold"
+				<TextView
+                    android:textStyle="bold"
 					android:layout_centerVertical="true"
 					android:layout_centerHorizontal="true"
 					android:textSize="22sp"

@@ -1,177 +1,171 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		lock
-	 *	@date 		Monday 09th of October 2023 09:32:34 PM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/lock" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent" >
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
 
-			<View   android:id="@+id/_bg__lock"
-				android:background="@drawable/_bg__lock_ek1_shape"
-				android:layout_marginStart="0dp"
-				android:layout_marginTop="0dp"
-				android:layout_width="430dp"
-				android:layout_height="932dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:background="@drawable/_bg__unlock_shape"
+                android:layout_width="412dp"
+                android:layout_height="892dp" />
 
 
-			<RelativeLayout android:id="@+id/head_bar"
-				android:layout_marginTop="44dp"
-				android:layout_marginStart="0dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
+            <RelativeLayout android:id="@+id/head_bar"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
 
-				<ImageView android:id="@+id/vector_1"
-					android:src="@drawable/vector_1"
-					android:contentDescription="vector_1"
-					 android:layout_marginStart="-1dp"
-					android:layout_marginTop="-1dp"
-					android:layout_width="429.5dp"
-					android:layout_height="79.5dp" />
+                <ImageView
+                    android:src="@drawable/vector_1"
+                    android:contentDescription="vector_1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="412dp"
+                    android:layout_height="80dp" />
 
-				<ImageView android:id="@+id/add"
-					android:src="@drawable/add"
-					android:contentDescription="add"
-					 android:layout_marginStart="293dp"
-					android:layout_marginTop="12dp"
-					android:layout_width="55dp"
-					android:layout_height="55dp" />
+                <ImageView
+                    android:src="@drawable/add"
+                    android:contentDescription="add"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
 
-				<ImageView android:id="@+id/tune"
-					android:src="@drawable/tune"
-					android:contentDescription="tune"
-					 android:layout_marginStart="362dp"
-					android:layout_marginTop="12dp"
-					android:layout_width="55dp"
-					android:layout_height="55dp" />
+                <ImageView
+                    android:src="@drawable/tune"
+                    android:contentDescription="tune"
+                    android:layout_marginStart="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
 
-			</RelativeLayout>
-
-
-			<RelativeLayout android:id="@+id/logo"
-				android:layout_marginTop="860dp"
-				android:layout_marginStart="110dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__logo_ek1"
-					android:background="@drawable/_bg__logo_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="211dp"
-					android:layout_height="35dp" />
-
-				<ImageView android:id="@+id/image_3"
-					android:src="@drawable/image_3"
-					android:contentDescription="image_3"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="211dp"
-					android:layout_height="35dp" />
-
-			</RelativeLayout>
+            </RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/fotter"
-				android:layout_marginTop="732dp"
-				android:layout_marginStart="-1dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
+            <RelativeLayout
+                android:layout_marginTop="830dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
 
-				<View   android:id="@+id/_bg__fotter_ek1"
-					android:background="@drawable/_bg__fotter_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="430dp"
-					android:layout_height="90dp" />
+                <View
+                    android:background="@drawable/_bg__logo_ek1_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
 
-				<View   android:id="@+id/rectangle_51"
-					android:background="@drawable/rectangle_51_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="430dp"
-					android:layout_height="88dp" />
+                <ImageView
+                    android:src="@drawable/image_3"
+                    android:contentDescription="image_3"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
 
-				<ImageView android:id="@+id/vector"
-					android:src="@drawable/vector"
-					android:contentDescription="vector"
-					 android:layout_marginStart="64dp"
-					android:layout_marginTop="18dp"
-					android:layout_width="63dp"
-					android:layout_height="51.14dp" />
-
-				<ImageView android:id="@+id/combined_shape"
-					android:src="@drawable/combined_shape"
-					android:contentDescription="combined_shape"
-					 android:layout_marginStart="294dp"
-					android:layout_marginTop="20dp"
-					android:layout_width="60dp"
-					android:layout_height="50dp" />
-
-			</RelativeLayout>
+            </RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/text"
-				android:layout_marginTop="122dp"
-				android:layout_marginStart="45dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
+            <RelativeLayout
+                android:layout_marginTop="700dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
 
-				<TextView android:id="@+id/nome_fechadura"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="36sp"
-					android:textColor="@color/time_color"
-					android:layout_marginLeft="-6dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="239dp"
-					android:layout_height="46.6dp"
-					android:text="@string/nome_fechadura_string"
-					 />
+                <View
+                    android:background="@drawable/_bg__fotter_ek1_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="412dp"
+                    android:layout_height="90dp" />
 
-				<TextView android:id="@+id/clique_no_cadeado_para_fechar"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="22sp"
-					android:textColor="@color/time_color"
-					android:layout_marginLeft="38dp"
-					android:layout_marginTop="94dp"
-					android:layout_width="261.2dp"
-					android:layout_height="28.2dp"
-					android:text="@string/clique_no_cadeado_para_fechar_string"
-					 />
+                <View
+                    android:background="@drawable/rectangle_51_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="412dp"
+                    android:layout_height="90dp" />
 
-			</RelativeLayout>
+                <ImageView
+                    android:src="@drawable/vector"
+                    android:contentDescription="vector"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
 
-			<ImageView android:id="@+id/vector_ek1"
-				android:src="@drawable/vector_ek1"
-				android:contentDescription="vector_ek1"
-				 android:layout_marginStart="72dp"
-				android:layout_marginTop="306dp"
-				android:layout_width="290dp"
-				android:layout_height="340dp" />
+                <ImageView
+                    android:src="@drawable/combined_shape"
+                    android:contentDescription="combined_shape"
+                    android:layout_marginStart="294dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
 
-		</RelativeLayout>
+            </RelativeLayout>
 
-	</ScrollView>
+
+            <RelativeLayout
+                android:layout_marginTop="320dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <!---<ImageView android:id="@+id/btn_lock"
+                    android:src="@drawable/vector_ek1"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="290dp"
+                    android:layout_height="340dp" />-->
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/btn_loking"
+                    android:layout_width="350dp"
+                    android:layout_height="380dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    app:lottie_rawRes="@raw/unlock"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="36sp"
+                android:textColor="@color/time_color"
+                android:layout_marginTop="180dp"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:text="@string/nome_fechadura_string"
+                />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/click_unlock"
+                android:layout_marginTop="260dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/clique_no_cadeado_para_abrir_string"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
 </HorizontalScrollView>

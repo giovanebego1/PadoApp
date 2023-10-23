@@ -2,8 +2,7 @@
 <resources>
 	<!-- sign_in strings -->
 
-	<string name="app_name">Page 1</string>
-	<string name="n_o_tem_um_conta__cadastre_se_string">Não tem uma conta? Cadastre-se</string>
+    <string name="n_o_tem_um_conta__cadastre_se_string">Não tem uma conta? Cadastre-se</string>
 	<string name="ou_string">Ou</string>
 	<string name="concluido_string">CONCLUIDO</string>
 	<string name="esqueceu_senha_string">Esqueceu senha</string>
@@ -18,8 +17,7 @@
 	<string name="celular_ek1_string">Celular</string>
 	<string name="insira_seu_celular_string">Insira seu celular</string>
 	<string name="nome_completo_ek1_string">Nome Completo</string>
-	<string name="insira_seu_nome_completo_string">Insira seu nome completo</string>
-	<string name="senha_ek1_string">Senha</string>
+    <string name="senha_ek1_string">Senha</string>
 
 	<!-- add_device strings -->
 
@@ -29,8 +27,7 @@
 	<string name="facebook" />
     <string name="pado_logo">Pado logo</string>
     <string name="bluetooth_button">Bluetooth Button</string>
-    <string name="add_button">add button</string>
-	<string name="qrcode_button">qrcode button</string>
+    <string name="qrcode_button">qrcode button</string>
 	<string name="settings_button">Settings button</string>
 	<string name="head_rectangle">head rectangle</string>
 	<string name="wi_fi_button">wi_fi button</string>
@@ -39,8 +36,6 @@
 
 	<string name="nome_fechadura_string">Nome fechadura</string>
 	<string name="clique_no_cadeado_para_abrir_string">Clique no cadeado para abrir</string>
-    <string name="unlock_button">Unlock Button</string>
 
-	<!-- lock strings -->
-	<string name="clique_no_cadeado_para_fechar_string">Clique no cadeado para fechar</string>
+    <!-- lock strings -->
 </resources>

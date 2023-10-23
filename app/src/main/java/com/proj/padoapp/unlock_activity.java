@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -23,7 +22,7 @@ public class unlock_activity extends Activity {
 		btn_unlock.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Post_test postTestTask = new Post_test();
+				Unlock_post postTestTask = new Unlock_post();
 				postTestTask.execute();
 			}
 		});
