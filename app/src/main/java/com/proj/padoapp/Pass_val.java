@@ -4,7 +4,7 @@ import android.util.Log;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Valid {
+public class Pass_val {
     public static void valid (String[] args){
 
     }

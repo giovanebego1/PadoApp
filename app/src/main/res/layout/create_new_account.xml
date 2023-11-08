@@ -1,9 +1,12 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
 
 	<ScrollView
         android:layout_width="wrap_content"
-		android:layout_height="match_parent" >
+		android:layout_height="match_parent">
 
 		<RelativeLayout
             android:layout_width="wrap_content"
@@ -11,10 +14,10 @@
 
 			<View
                 android:background="@drawable/_bg__create_new_account_shape"
-				 android:layout_marginStart="0dp"
+				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:layout_width="412dp"
-				android:layout_height="872dp" />
+				android:layout_height="845dp" />
 
 
 			<TextView
@@ -53,7 +56,7 @@
 				<FrameLayout
                     android:layout_width="match_parent"
 					android:layout_height="match_parent"
-					>
+					tools:ignore="UselessParent">
 
 					<RelativeLayout
                         android:layout_width="match_parent"
@@ -103,16 +106,16 @@
 						>
 
 						<TextView
-                            android:layout_gravity="center_horizontal|center"
-							android:gravity="center"
-							android:textSize="24dp"
-							android:textColor="@color/teal_900"
-							android:layout_marginLeft="5dp"
-							android:layout_marginTop="0dp"
 							android:layout_width="65dp"
 							android:layout_height="35dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="0dp"
+							android:gravity="center"
 							android:text="@string/email_string"
-							/>
+							android:textColor="@color/teal_900"
+							android:textSize="24dp"
+							tools:ignore="TextSizeCheck" />
 
 						<View
                             android:background="@drawable/rectangle_6_shape"
@@ -146,16 +149,16 @@
 						>
 
 						<TextView
-                            android:layout_gravity="center_horizontal|center"
-							android:gravity="center"
-							android:textSize="24dp"
-							android:textColor="@color/teal_900"
-							android:layout_marginLeft="5dp"
-							android:layout_marginTop="0dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="0dp"
+							android:gravity="center"
 							android:text="@string/celular_ek1_string"
-							/>
+							android:textColor="@color/teal_900"
+							android:textSize="24dp"
+							tools:ignore="TextSizeCheck" />
 
 						<View
                             android:background="@drawable/rectangle_7_shape"
@@ -189,56 +192,27 @@
 						>
 
 						<TextView
-                            android:layout_gravity="center_horizontal|center"
-							android:gravity="center"
-							android:textSize="24dp"
-							android:textColor="@color/teal_900"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_horizontal|center"
 							android:layout_marginLeft="5dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="wrap_content"
-							android:layout_height="wrap_content"
+							android:gravity="center"
 							android:text="@string/senha_ek1_string"
-							/>
+							android:textColor="@color/teal_900"
+							android:textSize="24dp"
+							tools:ignore="TextSizeCheck" />
 
-						<View
-                            android:background="@drawable/rectangle_7_ek1_shape"
-							android:alpha="0.15000000596046"
-							android:layout_marginStart="0dp"
-							android:layout_marginTop="50dp"
-							android:layout_width="375dp"
-							android:layout_height="60dp"/>
+							<FrameLayout
+								android:layout_width="375dp"
+								android:layout_height="60dp"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="50dp"
+								>
+								<include
+									layout="@layout/password_comp"/>
+							</FrameLayout>
 
-
-						<RelativeLayout
-                            android:layout_marginTop="65dp"
-							android:layout_marginStart="320dp"
-							android:layout_width="wrap_content"
-							android:layout_height="wrap_content"
-							>
-
-							<ImageView
-                                android:src="@drawable/shape"
-								android:contentDescription="shape"
-								android:layout_marginStart="5dp"
-								android:layout_marginTop="5dp"
-								android:layout_width="20dp"
-								android:layout_height="20dp" />
-
-						</RelativeLayout>
-
-						<EditText android:id="@+id/user_password"
-							android:layout_gravity="center_horizontal|center"
-							android:textSize="20sp"
-							android:maxLength="30"
-							android:layout_marginTop="50dp"
-							android:layout_width="match_parent"
-							android:layout_height="match_parent"
-							android:minHeight="60dp"
-							android:paddingStart="20dp"
-							android:textColor="@color/white"
-							android:textColorHint="@color/white"
-							android:hint="@string/insira_sua_senha_string"
-							/>
 
 					</RelativeLayout>
 

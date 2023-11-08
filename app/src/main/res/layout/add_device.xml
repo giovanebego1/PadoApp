@@ -11,8 +11,8 @@
 			android:layout_height="wrap_content" >
 
 			<View
-                android:layout_width="412dp"
-				android:layout_height="892dp"
+				android:layout_width="412dp"
+				android:layout_height="845dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:background="@drawable/_bg__add_device_shape" />
@@ -20,7 +20,7 @@
 			<ImageView
                 android:src="@drawable/image_2"
 				android:layout_centerHorizontal="true"
-				android:layout_marginTop="830dp"
+				android:layout_marginTop="760dp"
 				android:layout_width="220dp"
 				android:layout_height="40dp"
 				android:contentDescription="@string/pado_logo" />
@@ -30,7 +30,7 @@
 				android:layout_gravity="center_horizontal|center"
 				android:textSize="22sp"
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
-				android:layout_marginTop="325dp"
+				android:layout_marginTop="260dp"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
 				android:text="@string/buscar_com_bluetooth_ou_wi_fi_string"
@@ -42,7 +42,7 @@
 				android:textSize="22sp"
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
 				android:layout_centerHorizontal="true"
-				android:layout_marginTop="570dp"
+				android:layout_marginTop="500dp"
 				android:layout_width="235dp"
 				android:layout_height="40dp"
 				android:text="@string/ler_qrcode_do_manual_string"
@@ -53,7 +53,7 @@
 				android:layout_height="60dp"
 				android:layout_below="@+id/head_bar"
 				android:layout_centerHorizontal="true"
-				android:layout_marginTop="96dp"
+				android:layout_marginTop="46dp"
 				android:gravity="center"
 				android:text="@string/para_iniciar__adicione_um_novo_dispositivo_string"
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
@@ -63,7 +63,7 @@
 			<!-- Adicionar botoes wifi e blue dentro de uma LinerLayout para que fiquem com espaçamento iguais -->
 
 			<RelativeLayout android:id="@+id/bluetooth"
-				android:layout_marginTop="412dp"
+				android:layout_marginTop="362dp"
 				android:layout_marginStart="25dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
 				android:layout_height="wrap_content"
 				android:layout_alignBaseline="@+id/bluetooth"
 				android:layout_marginStart="225dp"
-				android:layout_marginTop="412dp"
+				android:layout_marginTop="362dp"
 				android:clickable="true"
 				android:focusable="true"
 				>
@@ -125,7 +125,7 @@
 
 
 			<RelativeLayout android:id="@+id/qr_code"
-				android:layout_marginTop="660dp"
+				android:layout_marginTop="580dp"
 				android:layout_marginStart="20dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -155,14 +155,14 @@
 
 
 			<RelativeLayout android:id="@+id/head_bar"
-				android:layout_marginTop="44dp"
+				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
 
 				<ImageView
-                    android:src="@drawable/vector_1"
+                    android:src="@drawable/vector_2"
 					android:contentDescription="@string/head_rectangle"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"

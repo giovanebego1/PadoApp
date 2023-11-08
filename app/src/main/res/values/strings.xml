@@ -38,4 +38,19 @@
 	<string name="clique_no_cadeado_para_abrir_string">Clique no cadeado para abrir</string>
 
     <!-- lock strings -->
+	<string name="clique_no_cadeado_para_fechar_string">Clique no cadeado para fechar</string>
+
+	<!-- settings strings -->
+	<string name="configura__es_string">Configurações</string>
+	<string name="ativar_leitor_de_biometria_string">Leitor biometria</string>
+	<string name="restaurar_padr_o_de_fabrica_string">Restaurar padrão de fabrica</string>
+	<string name="encerrar_sess_o_string">Encerrar Sessão</string>
+	<string name="ativar_leitor_facial_string">Reconhecimento facial</string>
+	<string name="ativar_integracao_google_string">Integração Google</string>
+	<string name="ativar_integracao_alexa_string">Integração Alexa</string>
+	<string name="ativar_comandos_por_voz_string">Comandos por voz</string>
+	<string name="gerenciar_grupos_string">Gerenciar grupos</string>
+	<string name="trocar_tema_do_app_string">Trocar tema do App</string>
+	<string name="functions_group">Functions group</string>
+	<string name="amazon_alexa_logo">amazon_alexa_logo</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
 	<!-- sign_in colors -->
 
 	<color name="colorPrimary">#008577</color>
@@ -33,6 +34,25 @@
 	<color name="_bg__unlock_color">#000000</color>
 	<color name="click_unlock">#8F8F8F</color>
 
-	<!-- lock colors -->
+	<!-- settings colors -->
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+
+	<color name="_bg__settings_color">#000000</color>
+	<color name="configuracoes_color">#FFFFFF</color>
+	<color name="rectangle_54_color">#58FF68</color>
+	<color name="restaurar_padr_o_de_fabrica_color">#EB2B72</color>
+	<color name="rectangle_54_ek5_color">#1E1E1E</color>
+
+	<!-- qrcode_reader colors -->
+
+	<color name="_bg__qrcode_reader_color">#000000</color>
+	<color name="time_color">#FFFFFF</color>
+	<color name="rectangle_49_color">#F30000</color>
+
 
 </resources>

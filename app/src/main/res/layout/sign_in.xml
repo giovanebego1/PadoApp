@@ -1,5 +1,5 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content">
@@ -12,20 +12,20 @@
             android:layout_width="wrap_content"
 			android:layout_height="wrap_content">
 
+
 			<View
-                android:layout_width="412dp"
-				android:layout_height="872dp"
+				android:layout_width="412dp"
+				android:layout_height="845dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:background="@drawable/__bg__sign_in_shape" />
-
 
 			<TextView
 				android:id="@+id/nao_tem_conta"
 				android:layout_width="240dp"
 				android:layout_height="wrap_content"
 				android:layout_centerHorizontal="true"
-				android:layout_marginTop="770dp"
+				android:layout_marginTop="755dp"
 				android:clickable="true"
 				android:focusable="true"
 				android:gravity="center"
@@ -118,7 +118,7 @@
 					android:layout_marginTop="7dp">
 
 					<View
-                        android:layout_width="58.12dp"
+                        android:layout_width="60dp"
 						android:layout_height="60dp"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
@@ -129,7 +129,7 @@
 
 					<ImageView
 						android:id="@+id/btn_google"
-						android:layout_width="38.75dp"
+						android:layout_width="40dp"
 						android:layout_height="40dp"
 						android:layout_marginStart="10dp"
 						android:layout_marginTop="10dp"
@@ -193,7 +193,7 @@
 				android:layout_width="150dp"
 				android:layout_height="48dp"
 				android:layout_marginStart="245dp"
-				android:layout_marginTop="435dp"
+				android:layout_marginTop="400dp"
 				android:clickable="true"
 				android:focusable="true"
 				android:text="@string/esqueceu_senha_string"
@@ -211,7 +211,7 @@
                     android:layout_width="67dp"
 					android:layout_height="37dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginStart="-0.72dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:gravity="center"
 					android:text="@string/email_string"
@@ -251,60 +251,64 @@
                     android:layout_width="73dp"
 					android:layout_height="37dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="-1dp"
-					android:layout_marginTop="145dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="120dp"
 					android:gravity="center"
 					android:text="@string/senha_string"
 					android:textColor="@color/esqueceu_senha_color"
 					android:textSize="22sp" />
 
 				<FrameLayout
-                    android:layout_width="375dp"
+					android:layout_width="375dp"
 					android:layout_height="60dp"
-					android:layout_marginTop="195dp">
+					android:layout_marginTop="160dp">
 
-					<EditText
-                        android:layout_width="match_parent"
-						android:layout_height="match_parent"
-						android:alpha="0.15000000596046"
-						android:background="@drawable/rectangle_7_shape"
-						tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
-
-					<EditText
-						android:id="@+id/pwd_login"
-						android:layout_width="match_parent"
-						android:layout_height="match_parent"
-						android:layout_gravity="start|center_vertical"
-						android:hint="@string/insira_sua_senha_string"
-						android:maxLength="30"
-						android:paddingStart="20dp"
-						android:textColor="@color/white"
-						android:textColorHint="@color/white"
-						android:textSize="18sp"
-						tools:ignore="RtlSymmetry,TextSizeCheck" />
-
-					<RelativeLayout
-                        android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						android:layout_marginStart="325dp"
-						android:layout_marginTop="20dp"
-						android:clickable="true"
-						android:focusable="true"
-						android:text="Show"
-						tools:ignore="TouchTargetSizeCheck">
-
-						<ImageView
-							android:id="@+id/bnt_show_pwd"
-							android:layout_width="20dp"
-							android:layout_height="18dp"
-							android:layout_marginStart="2dp"
-							android:layout_marginTop="3dp"
-							android:contentDescription="shape"
-							android:src="@drawable/shape" />
-
-					</RelativeLayout>
+					<include
+						layout="@layout/password_comp" />
 
 				</FrameLayout>
+							<!--<EditText
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:alpha="0.15000000596046"
+								android:background="@drawable/rectangle_7_shape"
+								tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+							<EditText
+								android:id="@+id/pwd_login"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_gravity="start|center_vertical"
+								android:hint="@string/insira_sua_senha_string"
+								android:maxLength="30"
+								android:paddingStart="20dp"
+								android:textColor="@color/white"
+								android:textColorHint="@color/white"
+								android:textSize="18sp"
+
+								tools:ignore="RtlSymmetry,TextSizeCheck" />
+
+							<RelativeLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="325dp"
+								android:layout_marginTop="20dp"
+								android:clickable="true"
+								android:focusable="true"
+								android:text="Show"
+								tools:ignore="TouchTargetSizeCheck">
+
+								<ImageView
+									android:id="@+id/bnt_show_pwd"
+									android:layout_width="20dp"
+									android:layout_height="18dp"
+									android:layout_marginStart="2dp"
+									android:layout_marginTop="3dp"
+									android:contentDescription="shape"
+									android:src="@drawable/eye_closed" />
+
+							</RelativeLayout>-->
+
 
 			</RelativeLayout>
 

@@ -25,13 +25,14 @@ public class DBHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("drop table if exists users");
     }
 
-    public boolean insertData(String username, String password, String full_name, String phone){
+    public boolean insertData(String username, String password, String full_name, String phone, boolean conection){
         SQLiteDatabase myDB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("username", username);
         contentValues.put("password", password);
         contentValues.put("full_name", full_name);
         contentValues.put("phone", phone);
+        contentValues.put("type", conection);
         long result = myDB.insert("users", null, contentValues);
         if (result == -1)
             return false;
@@ -55,5 +56,7 @@ public class DBHelper extends SQLiteOpenHelper {
         }else return false;
 
     }
+
+
 
 }
