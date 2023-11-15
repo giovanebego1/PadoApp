@@ -26,7 +26,7 @@
 				>
 
 				<ImageView
-                    android:src="@drawable/vector_2"
+                    android:src="@drawable/vector_1"
 					android:contentDescription="vector_1"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
@@ -42,9 +42,10 @@
 					android:layout_height="50dp" />
 
 				<ImageView
+					android:id="@+id/unlock_settings"
                     android:src="@drawable/tune"
 					android:contentDescription="tune"
-					 android:layout_marginStart="330dp"
+					android:layout_marginStart="330dp"
 					android:layout_marginTop="15dp"
 					android:layout_width="50dp"
 					android:layout_height="50dp" />
@@ -67,7 +68,7 @@
 					android:layout_height="match_parent" />
 
 				<ImageView
-                    android:src="@drawable/image_3"
+                    android:src="@drawable/image_1"
 					android:contentDescription="image_3"
 					 android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"

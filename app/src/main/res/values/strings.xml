@@ -53,4 +53,22 @@
 	<string name="trocar_tema_do_app_string">Trocar tema do App</string>
 	<string name="functions_group">Functions group</string>
 	<string name="amazon_alexa_logo">amazon_alexa_logo</string>
+
+	<!-- searching_device strings -->
+
+	<string name="procurando_dispositivos_____string">Procurando dispositivos ...</string>
+	<string name="adicionar_string">Adicionar</string>
+
+	<string name="app_name">Simple BLE Terminal</string>
+    <string name="devices">Bluetooth LE Devices</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+
+    <string name="location_permission_title">Location permission</string>
+    <string name="location_permission_grant">This app does not use location information, but scanning for Bluetooth LE devices requires this permission. Please grant in next dialog.</string>
+    <string name="location_permission_denied">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
 </resources>

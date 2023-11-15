@@ -1,0 +1,122 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<ScrollView android:id="@+id/searching_device" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg__searching_device"
+				android:layout_width="412dp"
+				android:layout_height="845dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/__bg__sign_in_shape" />
+
+			<com.airbnb.lottie.LottieAnimationView
+				android:id="@+id/loading_wifi"
+				android:contentDescription="loading"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"
+				android:layout_width="250dp"
+				android:layout_height="250dp"
+				app:lottie_rawRes="@raw/loading_white_red"/>
+
+
+			<ImageView
+				android:id="@+id/image_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="780dp"
+				android:contentDescription="image_3"
+				android:src="@drawable/image_2" />
+
+			<RelativeLayout
+				android:id="@+id/head_bar"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView
+					android:id="@+id/vector_1"
+					android:src="@drawable/vector_1"
+					android:contentDescription="vector_1"
+					android:layout_width="412dp"
+					android:layout_height="match_parent" />
+
+
+				<RelativeLayout
+					android:id="@+id/close"
+					android:layout_centerVertical="true"
+					android:layout_alignEnd="@id/vector_1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/arrow_back_ios"
+					android:layout_marginTop="14dp"
+					android:layout_marginStart="28dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<ImageView
+						android:id="@+id/vector_ek"
+						android:src="@drawable/vector_ek5"
+						android:contentDescription="vector_ek5"
+						android:layout_marginStart="0dp"
+						android:layout_width="55dp"
+						android:layout_height="55dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/search"
+				android:layout_marginTop="180dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true">
+
+				<View
+					android:id="@+id/rectangle_48"
+					android:background="@drawable/rectangle_48_shape"
+					android:alpha="0.9"
+					android:layout_width="400dp"
+					android:layout_height="70dp"
+					android:layout_centerHorizontal="true"/>
+
+				<TextView
+					android:id="@+id/procurando_dispositivos____"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/time_color"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/procurando_dispositivos_____string"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					 />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

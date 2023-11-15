@@ -43,8 +43,8 @@
 				android:textColor="@color/buscar_com_bluetooth_ou_wi_fi_color"
 				android:layout_centerHorizontal="true"
 				android:layout_marginTop="500dp"
-				android:layout_width="235dp"
-				android:layout_height="40dp"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
 				android:text="@string/ler_qrcode_do_manual_string"
 				 />
 
@@ -62,25 +62,21 @@
 
 			<!-- Adicionar botoes wifi e blue dentro de uma LinerLayout para que fiquem com espaçamento iguais -->
 
-			<RelativeLayout android:id="@+id/bluetooth"
+			<RelativeLayout
+				android:id="@+id/bluetooth"
 				android:layout_marginTop="362dp"
 				android:layout_marginStart="25dp"
 				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:clickable="true"
-				android:focusable="true"
-				>
+				android:layout_height="wrap_content">
 
 				<View
-                    android:layout_width="160dp"
+					android:layout_width="160dp"
 					android:layout_height="74dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:background="@drawable/rectangle_47_shape" />
 
 				<ImageView
-                    android:clickable="true"
-					android:focusable="true"
 					android:src="@drawable/bluetooth"
 					android:layout_marginStart="52dp"
 					android:layout_marginTop="7dp"
@@ -124,7 +120,8 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/qr_code"
+			<RelativeLayout
+				android:id="@+id/qr_code"
 				android:layout_marginTop="580dp"
 				android:layout_marginStart="20dp"
 				android:layout_width="wrap_content"
@@ -154,7 +151,8 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/head_bar"
+			<RelativeLayout
+				android:id="@+id/head_bar"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
@@ -162,18 +160,19 @@
 				>
 
 				<ImageView
-                    android:src="@drawable/vector_2"
+                    android:src="@drawable/vector_1"
 					android:contentDescription="@string/head_rectangle"
-					 android:layout_marginStart="0dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="412dp"
 					android:layout_height="80dp"
 					android:layout_centerHorizontal="true"/>
 
-				<ImageView android:id="@+id/settings"
+				<ImageView
+					android:id="@+id/config"
 					android:src="@drawable/tune"
 					android:contentDescription="@string/settings_button"
-					 android:layout_marginStart="325dp"
+					android:layout_marginStart="325dp"
 					android:layout_marginTop="10dp"
 					android:layout_width="60dp"
 					android:layout_height="60dp" />

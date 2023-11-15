@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -31,11 +30,11 @@ public class lock_activity extends Activity {
         btn_settings = findViewById(R.id.setings_btn);
 
         btn_loking.setOnClickListener(new View.OnClickListener() {
+
             @SuppressLint("Range")
             @Override
             public void onClick(View v) {
                 Wifi_post postTestTask = new Wifi_post();
-                postTestTask.execute("off");
                 btn_loking.playAnimation();
 
                 btn_loking.addAnimatorListener(new Animator.AnimatorListener() {
@@ -48,6 +47,7 @@ public class lock_activity extends Activity {
                     public void onAnimationEnd(@NonNull Animator animation) {
                         Intent intent = new Intent(lock_activity.this, unlock_activity.class);
                         startActivity(intent);
+                        postTestTask.execute("off");
                     }
 
                     @Override

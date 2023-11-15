@@ -11,16 +11,26 @@
 	<uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
 	<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-	<!-- <= 30 + Xiaomi/MIUI -->
+	<uses-permission android:name="android.permission.CAMERA"
+		tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30"/>
+
+
 	<application
         android:allowBackup="true"
+		android:label=""
 		android:theme="@style/AppTheme"
 		android:usesCleartextTraffic="true"
+		android:enableOnBackInvokedCallback="true"
 		>
 		
         <activity
 		android:name=".sign_in_activity"
-		android:exported="true"  >
+		android:exported="true"
+		android:launchMode="singleTask">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -38,7 +48,7 @@
 
 		<activity
 		android:name=".add_device_activity"
-		android:exported="true"  >
+		android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -64,8 +74,8 @@
 		</activity>
 
 		<activity
-		android:name=".settings_activity"
-		android:exported="true"  >
+			android:name=".settings_activity"
+			android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -73,13 +83,13 @@
 		</activity>
 
 		<activity
-		android:name=".qrcode_reader_activity"
-		android:exported="true"  >
+			android:name=".searching_wifi"
+			android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
 
-    </application>
+	</application>
 </manifest>

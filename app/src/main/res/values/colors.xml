@@ -9,6 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 	<color name="teal_900">#198EB6</color>
 
+	<color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+
 	<color name="__bg__sign_in_color">#000000</color>
 	<color name="n_o_tem_um_conta__cadastre_se_color">#198EB6</color>
 	<color name="rectangle_66_color">#D9D9D9</color>
@@ -51,8 +55,13 @@
 	<!-- qrcode_reader colors -->
 
 	<color name="_bg__qrcode_reader_color">#000000</color>
-	<color name="time_color">#FFFFFF</color>
 	<color name="rectangle_49_color">#F30000</color>
+
+	<!-- searching_device colors -->
+
+	<color name="_bg__searching_device_color">#000000</color>
+	<color name="rectangle_48_color">#D9D9D9</color>
+
 
 
 </resources>

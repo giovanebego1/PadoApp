@@ -82,7 +82,7 @@ public class create_new_account_activity extends Activity {
 
             }
 		});
-	}
+    }
 
 
 }

@@ -1,17 +1,17 @@
-<HorizontalScrollView
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 
 	<ScrollView
         android:layout_width="wrap_content"
 		android:layout_height="match_parent">
 
 		<RelativeLayout
+			android:contentDescription="switch frame"
             android:layout_width="wrap_content"
 			android:layout_height="wrap_content">
-
 
 			<View
 				android:layout_width="412dp"
@@ -154,6 +154,48 @@
 				android:textStyle="bold"
 				tools:ignore="TextSizeCheck" />
 
+			<RelativeLayout
+				android:id="@+id/frame_biometric"
+				android:visibility="invisible"
+				android:contentDescription="frame com os componentes do frontend biometria"
+				android:layout_width="375dp"
+				android:layout_height="50dp"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="455dp">
+
+				<ImageView
+					android:id="@+id/imagem_biometric"
+					android:contentDescription="imagem para demostração de logos"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:layout_alignParentStart="true"
+					android:layout_marginStart="10dp"
+					android:src="@drawable/biometric"/>
+
+				<TextView
+					android:contentDescription="Texto biometria"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="20dp"
+					android:layout_toStartOf="@+id/switch_btn"
+					android:layout_toEndOf="@+id/imagem_biometric"
+					android:text="Acessar com Biometria"
+					android:textColor="@color/white"
+					android:textSize="20dp"
+					android:alpha="0.6"
+					/>
+
+				<com.airbnb.lottie.LottieAnimationView
+					android:id="@+id/switch_btn"
+					android:contentDescription="botão switch lottie utilizado para habilitar ou desabilitar biometria"
+					android:layout_width="80dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginEnd="0dp"
+					app:lottie_rawRes="@raw/switch_button" />
+
+			</RelativeLayout>
 
 			<RelativeLayout
                 android:layout_width="wrap_content"
@@ -173,8 +215,8 @@
 					android:src="@drawable/rectangle_6" />
 
 				<TextView
-                    android:layout_width="134dp"
-					android:layout_height="37dp"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
 					android:layout_centerInParent="true"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginTop="19dp"
@@ -193,7 +235,7 @@
 				android:layout_width="150dp"
 				android:layout_height="48dp"
 				android:layout_marginStart="245dp"
-				android:layout_marginTop="400dp"
+				android:layout_marginTop="395dp"
 				android:clickable="true"
 				android:focusable="true"
 				android:text="@string/esqueceu_senha_string"
