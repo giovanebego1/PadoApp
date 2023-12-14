@@ -47,7 +47,7 @@ public class create_new_account_activity extends Activity {
 
 							if (registerStatus) {
 								Toast.makeText(create_new_account_activity.this, "Cadastro Concluído", Toast.LENGTH_LONG).show();
-								Intent intent = new Intent(create_new_account_activity.this, sign_in_activity.class);
+								Intent intent = new Intent(create_new_account_activity.this, MainActivity.class);
 								startActivity(intent);
 							} else {
 								Toast.makeText(create_new_account_activity.this, "Não foi possível realizar o cadastro", Toast.LENGTH_LONG).show();

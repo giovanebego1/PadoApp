@@ -70,8 +70,8 @@
                     android:layout_height="match_parent" />
 
                 <ImageView
-                    android:src="@drawable/image_1"
-                    android:contentDescription="image_3"
+                    android:src="@drawable/image_2"
+                    android:contentDescription="image_2"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
                     android:layout_width="match_parent"
@@ -140,8 +140,8 @@
                 android:textSize="36sp"
                 android:textColor="@color/time_color"
                 android:layout_marginTop="100dp"
-                android:layout_width="244dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/nome_fechadura_string"
                 />
 

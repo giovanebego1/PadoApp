@@ -34,7 +34,7 @@
 
 		<!-- unlock strings -->
 
-	<string name="nome_fechadura_string">Nome fechadura</string>
+	<string name="nome_fechadura_string">ESP32-SmartLock</string>
 	<string name="clique_no_cadeado_para_abrir_string">Clique no cadeado para abrir</string>
 
     <!-- lock strings -->
@@ -59,7 +59,7 @@
 	<string name="procurando_dispositivos_____string">Procurando dispositivos ...</string>
 	<string name="adicionar_string">Adicionar</string>
 
-	<string name="app_name">Simple BLE Terminal</string>
+	<string name="app_name">Césamo</string>
     <string name="devices">Bluetooth LE Devices</string>
 
     <string name="bluetooth_permission_title">Bluetooth permission</string>

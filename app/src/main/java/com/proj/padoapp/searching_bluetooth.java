@@ -18,7 +18,7 @@ public class searching_bluetooth extends AppCompatActivity {
 
         LottieAnimationView loading = findViewById(R.id.loading_bloutooth);
         loading.setAnimation(R.raw.loading_red);
-        loading.setRepeatCount(5);
+        loading.setRepeatCount(1);
         loading.playAnimation();
         loading.addAnimatorListener(new AnimatorListenerAdapter() {
             @Override

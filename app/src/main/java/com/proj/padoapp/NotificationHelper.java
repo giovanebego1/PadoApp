@@ -37,7 +37,7 @@ public class NotificationHelper {
                         .bigText(bigmessage))
                 .setLargeIcon(largeicon);
 
-        Intent signInIntent = new Intent(context, sign_in_activity.class);
+        Intent signInIntent = new Intent(context, MainActivity.class);
         signInIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent signInPendingIntent = PendingIntent.getActivity(context, 0, signInIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         builder.setContentIntent(signInPendingIntent);

@@ -18,7 +18,7 @@ public class searching_wifi extends AppCompatActivity {
 
         LottieAnimationView loading = findViewById(R.id.loading_wifi);
         loading.setAnimation(R.raw.loading_white_red);
-        loading.setRepeatCount(5);
+        loading.setRepeatCount(1);
         loading.playAnimation();
         loading.addAnimatorListener(new AnimatorListenerAdapter() {
             @Override
